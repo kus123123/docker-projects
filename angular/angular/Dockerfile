@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1.4
+# syntax=docker//dockerfile:1.4
 
 FROM --platform=$BUILDPLATFORM node:17.0.1-bullseye-slim as builder
 
